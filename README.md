@@ -1,2 +1,2 @@
 # APITES
-Tset Dev REST API
+Test Dev REST API
