@@ -1,4 +1,24 @@
 GET http://localhost:3000/subscribers
 
 ###
-GET http://localhost:3000/subscribers/1556
+GET http://localhost:3000/subscribers/6242a531ebe0d9166903125a
+
+###
+POST http://localhost:3000/subscribers
+Content-Type: application/json
+
+{
+    "name":"Kantaphon Maiput",
+    "subscribedToChannel":"Edit Master Test"
+}
+
+###
+DELETE http://localhost:3000/subscribers/6242a531ebe0d9166903125a
+
+###
+PATCH http://localhost:3000/subscribers/6242a78cebe0d91669031262
+Content-Type: application/json
+
+{
+    "subscribedToChannel":"Camping"
+}
