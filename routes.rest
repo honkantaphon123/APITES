@@ -22,3 +22,16 @@ Content-Type: application/json
 {
     "subscribedToChannel":"Camping"
 }
+
+
+###
+POST http://apites.app.ruk-com.cloud/subscribers
+Content-Type: application/json
+
+{
+    "name":"HOMER SIMson",
+    "subscribedToChannel":"BEERS"
+}
+
+###
+GET http://apites.app.ruk-com.cloud/subscribers
